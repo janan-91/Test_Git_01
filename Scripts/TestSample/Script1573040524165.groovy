@@ -18,7 +18,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.eonline.com/us')
 
-WebUI.click(findTestObject('Object Repository/Test_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks'))
+not_run: WebUI.click(findTestObject('Object Repository/Test_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks'))
 
 WebUI.click(findTestObject('Object Repository/Test_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/p_Kim Kardashian Rents Out Childhood Home for Kris Jenners Birthday'))
 
