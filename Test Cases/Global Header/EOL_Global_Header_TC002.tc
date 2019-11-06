@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the E! News Logo is actionable and reloads the Front Door while 
+maintaining edition integrity.</description>
+   <name>EOL_Global_Header_TC002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8dbb892e-7fcb-42fd-93da-bf8ed0ab4714</testCaseGuid>
+</TestCaseEntity>

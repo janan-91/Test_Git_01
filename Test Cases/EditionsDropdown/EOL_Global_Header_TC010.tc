@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Editions functionality</description>
+   <name>EOL_Global_Header_TC010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be82f91d-37e5-406c-b7a2-cf0d3911b3b3</testCaseGuid>
+</TestCaseEntity>

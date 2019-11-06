@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Verify EOL International Editions drop-down menu at the top right of the Header 
+(Should display the country code of the contentEdition the user is viewing)&quot;</description>
+   <name>EOL_Global_Header_TC003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3a8eb01-d6ba-4282-91dc-526a3d9a7a82</testCaseGuid>
+</TestCaseEntity>

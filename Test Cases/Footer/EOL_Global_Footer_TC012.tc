@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Footer Functionality. Verifying all links navigate to a new page in footer.</description>
+   <name>EOL_Global_Footer_TC012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa48dfb4-759b-45fa-b9bd-d89197151dec</testCaseGuid>
+</TestCaseEntity>

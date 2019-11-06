@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Click and verify latest news menu and the navigated page</description>
+   <name>EOL_Global_Header_TC006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91972db7-da4f-4b8c-8241-7f40686c02e7</testCaseGuid>
+</TestCaseEntity>

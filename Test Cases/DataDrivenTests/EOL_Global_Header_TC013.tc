@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Newsletter</description>
+   <name>EOL_Global_Header_TC013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1967b671-8840-4c4b-8636-879ff93393cd</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ae69fd3-63dd-4adf-a07a-2c9084dad8ed</id>
+      <masked>false</masked>
+      <name>MailID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search Functionality</description>
+   <name>EOL_Global_Header_TC008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47dae1b5-507a-481a-86fb-0b2f1105c0b8</testCaseGuid>
+</TestCaseEntity>
