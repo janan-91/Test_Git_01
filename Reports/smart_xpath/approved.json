@@ -1,3 +1,9 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects" : [ {
+    "approved" : true,
+    "proposedXPath" : "(.//*[normalize-space(text()) and normalize-space(.)='About Us'])[1]/preceding::a[7]",
+    "testObjectId" : "Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_Promoted Links_footer__enews-logo footer__enews-logo--us",
+    "brokenXPath" : "//div[@id='pae']/div[4]/div[3]/a",
+    "pathToScreenshot" : ""
+  } ]
 }

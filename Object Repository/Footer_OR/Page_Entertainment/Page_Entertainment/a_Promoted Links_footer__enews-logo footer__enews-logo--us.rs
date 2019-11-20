@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <WebElementEntity>
-   <description></description>
+   <description/>
    <name>a_Promoted Links_footer__enews-logo footer__enews-logo--us</name>
-   <tag></tag>
+   <tag/>
    <elementGuidId>fc781ea7-971a-45c3-81da-424969cc1031</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='pae']/div[4]/div[3]/a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='About Us'])[1]/preceding::a[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -38,14 +38,14 @@
       <matchCondition>equals</matchCondition>
       <name>data-omniture</name>
       <type>Main</type>
-      <value>trackElement|{&quot;linkName&quot;:&quot;nav:footer:main&quot;,&quot;products&quot;:&quot;eVar16=\&quot;nav\&quot;&quot;},&quot;prop17&quot;:&quot;eVar16=\&quot;nav\&quot;&quot;,&quot;eVar17&quot;:&quot;eVar16=\&quot;nav\&quot;&quot;,&quot;eVar16&quot;:&quot;frontdoor-modules&quot;}</value>
+      <value>trackElement|{"linkName":"nav:footer:main","products":"eVar16=\"nav\""},"prop17":"eVar16=\"nav\"","eVar17":"eVar16=\"nav\"","eVar16":"frontdoor-modules"}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page&quot;)/div[@class=&quot;footer&quot;]/div[@class=&quot;footer__socials&quot;]/a[@class=&quot;footer__enews-logo footer__enews-logo--us&quot;]</value>
+      <value>id("page")/div[@class="footer"]/div[@class="footer__socials"]/a[@class="footer__enews-logo footer__enews-logo--us"]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
