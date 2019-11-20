@@ -20,7 +20,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.eonline.com/us')
 
-WebUI.click(findTestObject('Page_Entertainmen/a_No Thanks'))
+not_run: WebUI.click(findTestObject('Page_Entertainmen/a_No Thanks'))
 
 WebUI.click(findTestObject('Page_Entertainmen/a_us'))
 

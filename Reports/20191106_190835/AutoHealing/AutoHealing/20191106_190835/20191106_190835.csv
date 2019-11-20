@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AutoHealing,Firefox 69.0,,,2019-11-06 19:08:40,2019-11-06 19:09:48,1m - 7.724s,INCOMPLETE
+,,,,,,,
+Test Cases/Auto Healing/EOL_Global_Footer_TC011,Firefox 69.0,"""Verify the E! News Logo is actionable and reloads the Front Door while 
+maintaining edition integrity""",,2019-11-06 19:08:41,2019-11-06 19:09:48,1m - 6.823s,PASSED
+"openBrowser("""")",Firefox 69.0,,,2019-11-06 19:08:41,2019-11-06 19:08:49,7.845s,PASSED
+maximizeWindow(),Firefox 69.0,,,2019-11-06 19:08:49,2019-11-06 19:08:49,0.064s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Firefox 69.0,,,2019-11-06 19:08:49,2019-11-06 19:09:06,17.019s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_No Thanks""))",Firefox 69.0,,,2019-11-06 19:09:06,2019-11-06 19:09:07,0.644s,PASSED
+delay(5),Firefox 69.0,,,2019-11-06 19:09:07,2019-11-06 19:09:12,5.113s,PASSED
+"verifyElementPresent(findTestObject(""Footer_OR/Page_Entertainment/Page_Entertainment/a_Promoted Links_footer__enews-logo footer__enews-logo--us""), 0)",Firefox 69.0,Verify whether the footer logo present,,2019-11-06 19:09:12,2019-11-06 19:09:27,14.966s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_Promoted Links_footer__enews-logo footer__enews-logo--us""))",Firefox 69.0,,,2019-11-06 19:09:27,2019-11-06 19:09:39,12.046s,PASSED
+delay(5),Firefox 69.0,,,2019-11-06 19:09:39,2019-11-06 19:09:44,5.040s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-11-06 19:09:44,2019-11-06 19:09:48,3.528s,PASSED

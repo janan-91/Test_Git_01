@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="API_TestSuite" time="5" tests="2" failures="0" errors="0">
+    <testsuite name="API_TestSuite" tests="2" failures="0" errors="0" time="5" timestamp="2019-11-07 11:49:17" hostname="tringapps - 10.1.0.104" id="Test Suites/API_Tests/API_TestSuite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/tringapps/git/Test_Git_01/Reports/20191107_114906/API_Tests/API_TestSuite/20191107_114906"/>
+            <property name="logFiles" value="/Users/tringapps/git/Test_Git_01/Reports/20191107_114906/API_Tests/API_TestSuite/20191107_114906/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="tringapps - 10.1.0.104"/>
+            <property name="hostAddress" value="10.1.0.104"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/API_Tests/ListUsers" classname="Test Cases/API_Tests/ListUsers" status="PASSED">
+            <system-out>2019-11-07 11:49:18 - [TEST_CASE][PASSED] - Test Cases/API_Tests/ListUsers: Test Cases/API_Tests/ListUsers
+
+2019-11-07 11:49:19 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API_Requests/ListUsersRequest")): Send request and verify the response successfully
+
+2019-11-07 11:49:21 - [MESSAGE][INFO] - HAR: /Users/tringapps/git/Test_Git_01/Reports/20191107_114906/API_Tests/API_TestSuite/20191107_114906/requests/main/0.har
+
+2019-11-07 11:49:21 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-07 11:49:22 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-07 11:49:22 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-07 11:49:22 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-07 11:49:22 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/API_Tests/CreateUser" classname="Test Cases/API_Tests/CreateUser" status="PASSED">
+            <system-out>2019-11-07 11:49:22 - [TEST_CASE][PASSED] - Test Cases/API_Tests/CreateUser: Test Cases/API_Tests/CreateUser
+
+2019-11-07 11:49:22 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API_Requests/CreateUser")): Send request successfully
+
+2019-11-07 11:49:23 - [MESSAGE][INFO] - HAR: /Users/tringapps/git/Test_Git_01/Reports/20191107_114906/API_Tests/API_TestSuite/20191107_114906/requests/main/1.har
+
+2019-11-07 11:49:23 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-11-07 11:49:17 - [TEST_SUITE][INCOMPLETE] - API_TestSuite: null</system-out>
+        <system-err>2019-11-07 11:49:17 - [TEST_SUITE][INCOMPLETE] - API_TestSuite: null</system-err>
+    </testsuite>
+</testsuites>

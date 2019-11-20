@@ -20,7 +20,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.eonline.com/us')
 
-WebUI.click(findTestObject('Object Repository/Editions_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks'))
+not_run: WebUI.click(findTestObject('Object Repository/Editions_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Editions_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_us'), 
     3)

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API_TestSuite,,,,2019-11-07 11:49:17,2019-11-07 11:49:23,5.569s,INCOMPLETE
+,,,,,,,
+Test Cases/API_Tests/ListUsers,,,,2019-11-07 11:49:18,2019-11-07 11:49:22,3.752s,PASSED
+"sendRequestAndVerify(findTestObject(""API_Requests/ListUsersRequest""))",,,,2019-11-07 11:49:19,2019-11-07 11:49:22,3.122s,PASSED
+,,,,,,,
+Test Cases/API_Tests/CreateUser,,,,2019-11-07 11:49:22,2019-11-07 11:49:23,1.127s,PASSED
+"sendRequest(findTestObject(""API_Requests/CreateUser""))",,,,2019-11-07 11:49:22,2019-11-07 11:49:23,0.775s,PASSED

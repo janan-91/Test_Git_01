@@ -20,10 +20,18 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.eonline.com/newsletter')
 
+WebUI.scrollToElement(findTestObject('Newsletter/Page_Newsletter  E Online/span_news_newsletter-landing__radio'), 0)
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Newsletter/Page_Newsletter  E Online/span_news_newsletter-landing__radio'))
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Newsletter/Page_Newsletter  E Online/input_Weekly_newsletter-landing__input'), 
     MailID)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Newsletter/Page_Newsletter  E Online/input_Weekly_glossy__btn newsletter-landing__btn'))
 

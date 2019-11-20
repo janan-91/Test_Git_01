@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Footer_01,,,,2019-11-20 12:23:41,2019-11-20 12:23:53,11.713s,INCOMPLETE
+,,,,,,,
+Test Cases/Footer/EOL_Global_Footer_TC011,,"""Verify the E! News Logo is actionable and reloads the Front Door while 
+maintaining edition integrity""",,2019-11-20 12:23:42,2019-11-20 12:23:53,11.336s,FAILED
+"openBrowser("""")",,,,2019-11-20 12:23:42,2019-11-20 12:23:43,0.370s,FAILED
+maximizeWindow(),,,,2019-11-20 12:23:43,2019-11-20 12:23:43,0.115s,FAILED
+"navigateToUrl(""https://www.eonline.com/us"")",,,,2019-11-20 12:23:43,2019-11-20 12:23:43,0.037s,FAILED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_No Thanks""))",,,,2019-11-20 12:23:43,2019-11-20 12:23:43,0.010s,NOT_RUN
+delay(5),,,,2019-11-20 12:23:43,2019-11-20 12:23:48,5.038s,PASSED
+"verifyElementPresent(findTestObject(""Footer_OR/Page_Entertainment/Page_Entertainment/a_Promoted Links_footer__enews-logo footer__enews-logo--us""), 0)",,Verify whether the footer logo present,,2019-11-20 12:23:48,2019-11-20 12:23:48,0.170s,FAILED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_Promoted Links_footer__enews-logo footer__enews-logo--us""))",,,,2019-11-20 12:23:48,2019-11-20 12:23:48,0.091s,FAILED
+delay(5),,,,2019-11-20 12:23:48,2019-11-20 12:23:53,5.007s,PASSED
+closeBrowser(),,,,2019-11-20 12:23:53,2019-11-20 12:23:53,0.012s,PASSED

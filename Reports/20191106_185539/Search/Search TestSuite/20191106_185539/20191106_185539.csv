@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search TestSuite,Chrome 78.0.3904.87,,,2019-11-06 18:55:53,2019-11-06 18:56:30,37.297s,INCOMPLETE
+,,,,,,,
+Test Cases/Search/EOL_Global_Header_TC008,Chrome 78.0.3904.87,Search Functionality,,2019-11-06 18:55:54,2019-11-06 18:56:30,36.456s,FAILED
+"openBrowser("""")",Chrome 78.0.3904.87,,,2019-11-06 18:55:55,2019-11-06 18:56:04,8.917s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.87,,,2019-11-06 18:56:04,2019-11-06 18:56:22,18.771s,PASSED
+maximizeWindow(),Chrome 78.0.3904.87,,,2019-11-06 18:56:22,2019-11-06 18:56:26,3.505s,PASSED
+"click(findTestObject(""Object Repository/Search_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks""))",Chrome 78.0.3904.87,,,2019-11-06 18:56:26,2019-11-06 18:56:27,0.978s,PASSED
+"click(findTestObject(""Page_Entertainmen/div_Venezuela_nav__search-button js-nav__search-button queryly_search_button""))",Chrome 78.0.3904.87,,,2019-11-06 18:56:27,2019-11-06 18:56:28,1.088s,FAILED
+"setText(findTestObject(""Page_Entertainmen/input_Advanced Search_queryly_query""), ""Priyanka Chopra"")",Chrome 78.0.3904.87,,,2019-11-06 18:56:28,2019-11-06 18:56:29,0.772s,FAILED
+"click(findTestObject(""Page_Entertainmen/div_Showing 387 Results for priyanka chopra""))",Chrome 78.0.3904.87,,,2019-11-06 18:56:29,2019-11-06 18:56:29,0.703s,FAILED
+"click(findTestObject(""Page_Entertainmen/img_Advanced Search_advanced_closebutton""))",Chrome 78.0.3904.87,,,2019-11-06 18:56:29,2019-11-06 18:56:30,0.590s,FAILED
+closeBrowser(),Chrome 78.0.3904.87,,,2019-11-06 18:56:30,2019-11-06 18:56:30,0.414s,PASSED
